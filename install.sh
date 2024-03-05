@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "Hello World"
+date > start.txt
+sleep 10
+date > end.txt
