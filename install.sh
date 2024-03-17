@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "source ~/.nick" >> ~/.bash_profile
+echo "source ~/.nick" >> ~/.bashrc
+mv ./.nick ~/.nick
