@@ -1,4 +1,2 @@
 #!/bin/bash
-date > start.txt
-sleep 10
-date > end.txt
+echo "source ~/.nick" >> ~/.bash_profile
