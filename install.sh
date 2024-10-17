@@ -1,4 +1,6 @@
 #!/bin/bash
-exit 0
-mv .nick ~/.nick
-mv .zshrc ~/.zshrc
+curdir=$(dirname $0)
+
+# install dotfiles
+mv $(curdir)/.nick ~/.nick
+mv $(curdir)/.zshrc ~/.zshrc

@@ -1,11 +1,13 @@
-alias ls='ls --color=auto'
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"
 
 alias g="git"
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit"
-alias commit="git commit"
-alias pull="git pull"
 alias push="git push"
-alias k="kubectl"
+alias pull="git pull"
+
 alias d="docker"
+alias k="kubectl"
+alias kctx="kubectx"
